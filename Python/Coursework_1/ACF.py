@@ -1,5 +1,5 @@
 # def cube_root(a, e, x0):
-#     assert a > 0 and e > 0 and x0 > 0
+#     assert a > 0 and e > 0 and x0 > 0, "a, e and x0 should be positive"
 #     n = 0
 #     while abs(x0 ** 3 - a) >= e:
 #         x0 = 1 / 3 * (2 * x0 + a / (x0 ** 2))
@@ -36,7 +36,7 @@
 
 
 # def cube_root_list(a, e, x0):
-#     assert a > 0 and e > 0 and x0 > 0
+#     assert a > 0 and e > 0 and x0 > 0, "a, e and x0 should be positive"
 #     ans_list = [x0]
 #     while abs(x0 ** 3 - a) >= e:
 #         x0 = 1 / 3 * (2 * x0 + a / (x0 ** 2))
