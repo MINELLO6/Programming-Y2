@@ -22,7 +22,7 @@
 # print(bernoulli(12))
 
 # tests
-from nose.tools import assert_equal, assert_almost_equal
+# from nose.tools import assert_equal, assert_almost_equal
 
 
 # assert_equal(bernoulli(0),1)
