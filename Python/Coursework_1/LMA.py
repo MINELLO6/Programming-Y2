@@ -3,6 +3,7 @@
 #
 # def scalar_product(v1, v2):
 #     assert type(v1) == tuple and type(v2) == tuple, "The type of v1 and v2 is tuple"
+#     可以使用isinstance()来解决，作用和type()，除了返回值和有无判断继承关系的作用
 #     assert len(v1) == len(v2), "Enter v1 and v2 with the same length"
 #     for i in range(len(v1)):
 #         assert (type(v1[i]) == int or type(v1[i]) == float) and (type(v2[i]) == int or type(v2[i]) == float), "The entries in the tuple should be int or float"
@@ -77,6 +78,7 @@
 #     for i in range(len(U)):
 #         for j in range(len(U[i])):
 #             assert (type(U[i][j]) == float or type(U[i][j]) == int), "The entries of U's tuples should be int or float"
+#     (isinstance(x,tuple) for x in U)是其他一种写法
 #     for i in range(len(U)):
 #         assert len(U[0]) == len(U[i]), "The tuple in U should have the same length"
 #         assert type(U[i]) == tuple
